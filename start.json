@@ -1,0 +1,9 @@
+{
+  "_digiComponent_": "digi:directionality",
+
+  "children": [
+    {
+      "_digiComponent_": "digi:start"
+    }
+  ]
+}

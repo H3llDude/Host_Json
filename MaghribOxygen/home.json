@@ -1,0 +1,151 @@
+{
+  "_digiComponent_": "digi:directionality",
+  "properties": { "style": "font-inter" },
+
+  "children": [
+    {
+      "_digiComponent_": "digi:navbar",
+      "properties": {
+        "logo": "/MagOxy/Logo.png",
+
+        "Links": [
+          { "label": "Accueil_ucf", "path": "" },
+          { "label": "Qui_sommes_nous_ucf", "path": "" },
+          { "label": "comment_ca_march_ucf", "path": "" },
+          { "label": "carte_borne_ucf", "path": "" },
+          { "label": "Contact_ucf", "path": "" }
+        ],
+        "navStyle": "bg-white",
+        "linkStyle": "text-sky font-bold font-poppins",
+        "hasButton": true,
+        "hasCredit": true,
+        "button": {
+          "style": "bg-white border border-sky border-2 text-sky font-bold",
+          "label": "Nous Contacter",
+          "isCallButton": false,
+          "link": "/test"
+        }
+      }
+    },
+    {
+      "_digiComponent_": "digi:Hero",
+      "properties": {
+        "variant": "MaghribOxygen",
+        "padding": "padding",
+        "Cards": [
+          {
+            "label": "Actualite_industrie_ucf",
+            "textColor": "text-sky",
+            "bgImg": "/MagOxy/Hero1.png"
+          },
+          {
+            "label": "Actualite_Sante_ucf",
+            "textColor": "text-ocean",
+            "bgImg": "/MagOxy/Hero2.png"
+          }
+        ]
+      }
+    },
+    {
+      "_digiComponent_": "digi:mediatext",
+      "properties": {
+        "mediatype": "image",
+        "sideMedia": "/MagOxy/AbtUs.png",
+        "headTitle": "Corporate_ucf",
+        "title": "Qui_sommes_nous_ucf",
+        "titleStyle": "font-bold font-poppins text-sky",
+        "buttonLabel": "Voir_plus_ucf",
+        "aboutParagraph": "aboutParagraph_ucf"
+      }
+    },
+    {
+      "_digiComponent_": "digi:sections",
+      "properties": {
+        "sectionTitle": "Applications_ucf",
+        "titleStyle": "font-bold font-poppins text-sky",
+        "Apps": [
+          {
+            "appImage": "/MagOxy/app1.png",
+            "path": "/apps",
+            "title": "Maghreb_Oxygene_ucf",
+            "desc": "Desc_a_app_ucf"
+          },
+          {
+            "appImage": "/MagOxy/app2.png",
+            "path": "/apps",
+            "title": "Maghreb_Oxygene_ucf",
+            "desc": "Desc_b_app_ucf"
+          }
+        ]
+      }
+    },
+
+    {
+      "_digiComponent_": "digi:news",
+      "properties": {
+        "variant": "A",
+        "sectionTitle": "Actualite_ucf",
+        "seeAll": "Voir_toutes_les_actualite_ucf",
+
+        "MainCard": {
+          "featuredImage": "/MagOxy/News.png",
+          "articleLink": "",
+          "title": "title_news_a_ucf",
+          "Desc": "Description_placeholder_ucf",
+          "publishDate": "July 20, 2021",
+          "buttonLabel": "Lire_article_ucf"
+        },
+        "SmallCards": [
+          {
+            "featuredImage": "https://via.placeholder.com/1000x500",
+            "articleLink": "",
+            "title": "Title_ucf"
+          },
+          {
+            "featuredImage": "https://via.placeholder.com/1000x500",
+            "articleLink": "",
+            "title": "Title_ucf"
+          },
+          {
+            "featuredImage": "https://via.placeholder.com/1000x500",
+            "articleLink": "",
+            "title": "Title_ucf"
+          },
+          {
+            "featuredImage": "https://via.placeholder.com/1000x500",
+            "articleLink": "",
+            "title": "Title_ucf"
+          }
+        ],
+        "showHowMany": 4
+      }
+    },
+    {
+      "_digiComponent_": "digi:footer",
+      "properties": {
+        "footerStyle": "bg-ocean font-poppins ",
+        "linkStyle": "text-white",
+        "logo": "/MagOxy/footer.png",
+
+        "Links": [
+          { "label": "contact_ucf", "path": "/contact" },
+          {
+            "label": "conditions_utilisation_ucf",
+            "path": "/terms"
+          },
+          {
+            "label": "politique_de_confidentialite_ucf",
+            "path": "/privacy"
+          },
+          { "label": "FAQ_ucf", "path": "/faq" }
+        ],
+        "SocialMedia": {
+          "facebook": false,
+          "instagram": false,
+          "twitter": false,
+          "linkedIn": true
+        }
+      }
+    }
+  ]
+}

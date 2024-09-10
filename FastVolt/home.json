@@ -1,0 +1,176 @@
+{
+  "_digiComponent_": "digi:directionality",
+  "properties": { "style": "font-inter" },
+
+  "children": [
+    {
+      "_digiComponent_": "digi:navbar",
+      "properties": {
+        "logo": "FastVolt/Logo.png",
+
+        "Links": [
+          { "label": "Accueil_ucf", "path": "/FastVolt/" },
+          { "label": "Qui_sommes_nous_ucf", "path": "/FastVolt/aboutUs" },
+          { "label": "comment_ca_march_ucf", "path": "/socials" },
+          { "label": "carte_borne_ucf", "path": "/security" },
+          { "label": "Contact_ucf", "path": "/news" }
+        ],
+        "navStyle": "bg-plantgreen",
+        "linkStyle": "text-white font-bold font-poppins",
+        "hasButton": true,
+        "button": {
+          "style": "bg-limegreen text-white",
+          "label": "Call us",
+          "isCallButton": true,
+
+          "phonenumber": "06453559993"
+        }
+      }
+    },
+    {
+      "_digiComponent_": "digi:Hero",
+      "properties": {
+        "variant": "FastVolt",
+        "image": "/Fastvolt/uncropped.jpg",
+        "Cardstyle": "text-white font-poppins bg-greengradient",
+        "paragraph": {
+          "label": "fast_hero_desc_ucf",
+          "paragraphstyle": ""
+        },
+        "title": "fast_hero_title_ucf",
+        "hasDownload": {
+          "label": "FastVolt_app_ucf"
+        },
+        "padding": "padding"
+      }
+    },
+    {
+      "_digiComponent_": "digi:iconcard",
+      "properties": {
+        "textCardA": "fast_textCardA_ucf",
+        "textCardB": "fast_textCardB_ucf",
+        "textCardC": "fast_textCardC_ucf",
+        "padding": "padding"
+      }
+    },
+    {
+      "_digiComponent_": "digi:sliderwrapper",
+      "properties": {
+        "title": "service_ucf",
+        "titleStyle": "text-start",
+        "loop": true,
+        "breakpoints": [
+          { "width": 320, "slidesPerView": 1, "spaceBetween": 10 },
+          { "width": 480, "slidesPerView": 1.5, "spaceBetween": 15 },
+          { "width": 768, "slidesPerView": 2.5, "spaceBetween": 20 },
+          { "width": 1024, "slidesPerView": 3.5, "spaceBetween": 25 },
+          { "width": 1280, "slidesPerView": 3.9, "spaceBetween": 30 },
+          { "width": 1536, "slidesPerView": 4, "spaceBetween": 35 }
+        ],
+        "padding": "padding-y"
+      },
+
+      "children": [
+        {
+          "_digiComponent_": "digi:slidercard",
+          "properties": {
+            "imageUrl": "/FastVolt/slider.png",
+            "link": "/test",
+            "desc": "fast_serviceA_desc_ucf",
+            "title": "fast_serviceA_title_ucf"
+          }
+        },
+        {
+          "_digiComponent_": "digi:slidercard",
+          "properties": {
+            "imageUrl": "/FastVolt/slider2.png",
+            "link": "/test",
+            "desc": "fast_serviceB_desc_ucf",
+            "title": "fast_serviceB_title_ucf"
+          }
+        },
+        {
+          "_digiComponent_": "digi:slidercard",
+          "properties": {
+            "imageUrl": "/FastVolt/slider3.png",
+            "link": "/test",
+            "desc": "fast_serviceC_desc_ucf",
+            "title": "fast_serviceC_title_ucf"
+          }
+        },
+        {
+          "_digiComponent_": "digi:slidercard",
+          "properties": {
+            "imageUrl": "/FastVolt/slider4.png",
+            "link": "/test",
+            "desc": "fast_serviceD_desc_ucf",
+            "title": "fast_serviceD_title_ucf"
+          }
+        },
+        {
+          "_digiComponent_": "digi:slidercard",
+          "properties": {
+            "imageUrl": "/FastVolt/slider5.png",
+            "link": "/test",
+            "desc": "fast_serviceE_desc_ucf",
+            "title": "fast_serviceE_title_ucf"
+          }
+        }
+      ]
+    },
+    {
+      "_digiComponent_": "digi:featurecard",
+      "properties": {
+        "Cards": [
+          "FastVolt_featureA_ucf",
+          "FastVolt_featureB_ucf",
+          "FastVolt_featureC_ucf",
+          "FastVolt_featureD_ucf",
+          "FastVolt_featureE_ucf",
+          "FastVolt_featureF_ucf",
+          "FastVolt_featureG_ucf",
+          "FastVolt_featureG_ucf"
+        ],
+        "title": "FastVolt_features_title_ucf",
+        "padding": "padding"
+      }
+    },
+    {
+      "_digiComponent_": "digi:fastvoltbanner",
+      "properties": {
+        "padding": "padding"
+      }
+    },
+    {
+      "_digiComponent_": "digi:newsletter",
+      "properties": { "buttonStyle": "bg-limegreen", "padding": "padding" }
+    },
+    {
+      "_digiComponent_": "digi:footer",
+      "properties": {
+        "footerStyle": "bg-plantgreen font-poppins ",
+        "linkStyle": "text-white",
+        "logo": "/Fastvolt/Logo.png",
+
+        "Links": [
+          { "label": "contact_ucf", "path": "/contact" },
+          {
+            "label": "conditions_utilisation_ucf",
+            "path": "/terms"
+          },
+          {
+            "label": "politique_de_confidentialite_ucf",
+            "path": "/privacy"
+          },
+          { "label": "FAQ_ucf", "path": "/faq" }
+        ],
+        "SocialMedia": {
+          "facebook": true,
+          "instagram": true,
+          "twitter": true,
+          "linkedIn": false
+        }
+      }
+    }
+  ]
+}
