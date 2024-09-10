@@ -1,0 +1,67 @@
+{
+  "_digiComponent_": "digi:directionality",
+  "properties": { "style": "font-inter" },
+
+  "children": [
+    {
+      "_digiComponent_": "digi:navbar",
+      "properties": {
+        "logo": "FastVolt/Logo.png",
+
+        "Links": [
+          { "label": "Accueil_ucf", "path": "" },
+          { "label": "Qui_sommes_nous_ucf", "path": "" },
+          { "label": "comment_ca_march_ucf", "path": "" },
+          { "label": "carte_borne_ucf", "path": "" },
+          { "label": "Contact_ucf", "path": "" }
+        ],
+        "navStyle": "bg-plantgreen",
+        "linkStyle": "text-white font-bold font-poppins",
+        "hasButton": true,
+        "button": {
+          "style": "bg-limegreen text-white",
+          "label": "Call us",
+          "isCallButton": true,
+          "phonenumber": "06453559993"
+        }
+      }
+    },
+    {
+      "_digiComponent_": "digi:titlewrapper",
+      "properties": { "title": "Carte des bornes" },
+      "children": [
+        {
+          "_digiComponent_": "digi:map",
+          "properties": {}
+        }
+      ]
+    },
+    {
+      "_digiComponent_": "digi:footer",
+      "properties": {
+        "footerStyle": "bg-plantgreen font-poppins ",
+        "linkStyle": "text-white",
+        "logo": "/Fastvolt/Logo.png",
+
+        "Links": [
+          { "label": "contact_ucf", "path": "/contact" },
+          {
+            "label": "conditions_utilisation_ucf",
+            "path": "/terms"
+          },
+          {
+            "label": "politique_de_confidentialite_ucf",
+            "path": "/privacy"
+          },
+          { "label": "FAQ_ucf", "path": "/faq" }
+        ],
+        "SocialMedia": {
+          "facebook": true,
+          "instagram": true,
+          "twitter": true,
+          "linkedIn": false
+        }
+      }
+    }
+  ]
+}

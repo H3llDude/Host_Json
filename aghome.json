@@ -1,0 +1,141 @@
+{
+  "_digiComponent_": "digi:directionality",
+  "properties": { "style": "font-inter" },
+  "children": [
+    {
+      "_digiComponent_": "digi:navbar",
+      "properties": {
+        "logo": "/AkwaGrp/Logo.png",
+
+        "Links": [
+          { "label": "groupe_ucf", "path": "/aboutUs" },
+          { "label": "poles_activite_ucf", "path": "/apps" },
+          { "label": "finance_ucf", "path": "/finance" },
+          { "label": "engagements_ucf", "path": "/news" }
+        ],
+        "navStyle": "bg-deepblue",
+        "linkStyle": "text-white font-semibold font-poppins",
+        "hasButton": true,
+        "hasCredit": false,
+        "button": {
+          "style": "bg-pacific border border-pacific border-2 text-white ",
+          "label": "Médiathèque",
+          "isCallButton": false,
+          "link": "/test"
+        }
+      }
+    },
+    {
+      "_digiComponent_": "digi:Hero",
+      "properties": {
+        "variant": "AkwaGroup",
+        "backgroundColor": "bg-deepblue",
+        "heroTitle": "groupe_energetique_ucf",
+        "heroText": "placeholder_ucf",
+        "textColor": "text-primary",
+        "textFont": "font-poppins",
+        "buttonLabel": "qui_sommes_nous_ucf",
+        "buttonLink": "/about",
+        "Cards": [
+          { "bgImg": "/AkwaGrp/Hero1.png" },
+          { "bgImg": "/AkwaGrp/Hero2.png" }
+        ]
+      }
+    },
+    {
+      "_digiComponent_": "digi:mediatext",
+      "properties": {
+        "mediatype": "video",
+        "sideMedia": "/videos/akwa-vid.mp4",
+        "headTitle": "akwa_title_ucf",
+        "titleStyle": "font-bold font-poppins text-black",
+        "aboutStyle": "font-normal font-poppins",
+        "aboutParagraph": "about_desc_ucf",
+        "buttonLabel": "savoir_plus_ucf"
+      }
+    },
+    {
+      "_digiComponent_": "digi:numberedcard",
+      "properties": {
+        "titleColor": "tar",
+        "BlogPosts": [
+          {
+            "appImage": "/AkwaGrp/app1.png",
+            "path": "/apps",
+            "title": "carburant_ucf",
+            "desc": "app_placeholder_ucf",
+            "link": "/"
+          },
+          {
+            "appImage": "/AkwaGrp/app2.png",
+            "path": "/apps",
+            "title": "gaz_ucf",
+            "desc": "app_placeholder_ucf",
+            "link": "/"
+          },
+          {
+            "appImage": "/AkwaGrp/app3.png",
+            "path": "/apps",
+            "title": "fluides_ucf",
+            "desc": "app_placeholder_ucf",
+            "link": "/"
+          },
+          {
+            "appImage": "/AkwaGrp/app5.png",
+            "path": "/apps",
+            "title": "developpement_ucf",
+            "desc": "app_placeholder_ucf",
+            "link": "/"
+          },
+          {
+            "appImage": "/AkwaGrp/app4.png",
+            "path": "/apps",
+            "title": "immobilier_ucf",
+            "desc": "app_placeholder_ucf",
+            "link": "/"
+          }
+        ]
+      }
+    },
+    {
+      "_digiComponent_": "digi:news",
+      "properties": {
+        "variant": "B",
+        "style": "bg-darkblue",
+        "textStyle": "text-primary font-poppins",
+        "sectionTitle": "Actualite_ucf",
+        "queryType": "news",
+        "showHowMany": 5,
+        "childComponent": "NewsCard"
+      }
+    },
+    {
+      "_digiComponent_": "digi:footer",
+      "properties": {
+        "footerStyle": "bg-deepblue font-poppins ",
+        "linkStyle": "text-white",
+        "logo": "/AkwaGrp/Logo.png",
+
+        "Links": [
+          { "label": "contact_ucf", "path": "/contact" },
+          {
+            "label": "conditions_utilisation_ucf",
+            "path": "/terms"
+          },
+          {
+            "label": "politique_de_confidentialite_ucf",
+            "path": "/privacy"
+          },
+          { "label": "FAQ_ucf", "path": "/faq" },
+          { "label": "recrutement_ucf", "path": "/jobs" }
+        ],
+        "SocialMedia": {
+          "facebook": true,
+          "instagram": true,
+          "twitter": true,
+          "linkedIn": false
+        }
+      }
+    }
+  ]
+}
